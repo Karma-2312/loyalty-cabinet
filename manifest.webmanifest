@@ -7,15 +7,11 @@
   "scope": "/loyalty-cabinet/",
   "display": "standalone",
   "display_override": [
-    "window-controls-overlay",
     "standalone"
   ],
   "orientation": "portrait",
   "theme_color": "#160b13",
   "background_color": "#10080d",
-  "categories": [
-    "shopping"
-  ],
   "icons": [
     {
       "src": "/loyalty-cabinet/icons/icon-192.png",
