@@ -1,14 +1,33 @@
 {
-  "name":"Loyalty Cabinet",
-  "short_name":"Loyalty Cabinet",
-  "description":"A private gothic loyalty-card cabinet.",
-  "start_url":"./",
-  "display":"standalone",
-  "background_color":"#090607",
-  "theme_color":"#090607",
-  "orientation":"portrait-primary",
-  "icons":[
-    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
-    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  "name": "Loyalty Cabinet",
+  "short_name": "Loyalty Cabinet",
+  "description": "Your personal gothic loyalty card cabinet.",
+  "id": "/loyalty-cabinet/",
+  "start_url": "/loyalty-cabinet/",
+  "scope": "/loyalty-cabinet/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "orientation": "portrait",
+  "theme_color": "#160b13",
+  "background_color": "#10080d",
+  "categories": [
+    "shopping"
+  ],
+  "icons": [
+    {
+      "src": "/loyalty-cabinet/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/loyalty-cabinet/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
